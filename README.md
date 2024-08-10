@@ -1,7 +1,8 @@
 ### About Me
 
 Hello!
-Welcome to My Github
+
+Welcome to My Github :)
 
 I am Rizki Khoirun Nisa, a dedicated Research Assistant at the University of Lampung with a strong background in mathematics, data analysis, and Artificial Intelligence (AI). I specialize in developing and implementing machine learning models, particularly in Python, and have experience preparing research for journal submission and copyright registration. My academic journey has honed my skills in algorithm development, statistical analysis, and AI-driven insights, which I apply to a range of research projects. I am passionate about leveraging data science to solve complex problems and contribute to meaningful academic research.
 
