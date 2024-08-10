@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>American Sign Language Dataset  | Kaggle</title>
+  <meta charset="utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="description" content="American Sign Language Dataset for Image Classifcation" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="image data,computer vision,cnn,multiclass classification" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="f52UyVeM/JegskiY44sWdw==" type="text/javascript">
+    window["pageRequestStartTime"] = 1631759973770;
+    window["pageRequestEndTime"] = 1631759973893;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="f52UyVeM/JegskiY44sWdw==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=a39c9d14b7e6072d0f7a" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=bee0fae7526307feb6c4" />
+  
+    
+ 
+  
+    <script nonce="f52UyVeM/JegskiY44sWdw==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="f52UyVeM/JegskiY44sWdw==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-12629138-1', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="f52UyVeM/JegskiY44sWdw==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+
+  
+    
+        <meta property="og:url" content="https://kaggle.com/ayuraj/asl-dataset" />
+        <meta property="og:title" content="American Sign Language Dataset " />
+        <meta property="og:description" content="American Sign Language Dataset for Image Classifcation" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/177084/399170/7d90f4493015ceb9f5f56e7b3de0eb13/dataset-card.jpg?t=2019-06-22-12-23-20" />
+        <meta property="fb:app_id" content="2665027677054710" />
+
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kaggledatasets" />
+            <meta name="twitter:creator" content="@ayushthakur0" />
+    
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+        <script nonce="f52UyVeM/JegskiY44sWdw==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"American Sign Language Dataset ","description":"This dataset can be used to apply the ideas of multi class classification using the technology of your choice. This is curated for convolution neural network. The multi class classification result will be close to 98% of accuracy if the algorithm is good enough. \n","url":"https://www.kaggle.com/ayuraj/asl-dataset","version":1,"keywords":["data type, image data","technique, computer vision","technique, neural networks, cnn","technique, classification, multiclass classification"],"license":{"@type":"CreativeWork","name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"identifier":["177084"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Ayush Thakur","url":"https://www.kaggle.com/ayuraj","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2212893-kg.jpg"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/ayuraj/asl-dataset/download","contentSize":"59642568 bytes"}],"commentCount":1,"dateModified":"2019-04-28T08:25:27.797","discussionUrl":"https://www.kaggle.com/ayuraj/asl-dataset/discussion","alternateName":"American Sign Language Dataset for Image Classifcation","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/177084/399170/7d90f4493015ceb9f5f56e7b3de0eb13/dataset-card.jpg?t=2019-06-22-12-23-20","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":1},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":1333},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":8698},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":39}]}</script>
+    
+
+  
+    
+        <link rel="alternate" type="application/json+oembed"
+            href="https://www.kaggle.com/oembed/dataset?url=https%3A%2F%2Fwww.kaggle.com%2Fayuraj%2Fasl-dataset"
+            title="American Sign Language Dataset " />
+    
+
+  
+    
+    
+<script nonce="f52UyVeM/JegskiY44sWdw==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+
+    Kaggle.Current = {
+        antiForgeryToken: 'CfDJ8LdUzqlsSWBPr4Ce3rb9VL8H3aVqyATPysyO7MW9Jetk8rAecyroGi8xmGd3OKQ58B_GT5yyyHmpO1s-QxAv3yRs5cktN34qN8ZmTcvN4n7Z51vzfzwcB8xf045RElSBLMgF9TLcDotN_3a3dX_hDc8',
+        isAnonymous: true,
+        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MzE3NjA4NzMsIlVzZXJJZCI6MH0.ZeFov2Bw19tAqAB6R9YkyIbFY6Dy_nYSOP9Qc3UNclI',
+        analyticsTokenExpiry: 15,
+        
+        
+        
+        
+        
+        
+        
+        enableRapidash: true, 
+    }
+        Kaggle.Current.log = function(){};
+        Kaggle.Current.warn = function(){};
+
+    var decodeUserDisplayName = function () {
+        var escapedUserDisplayName = Kaggle.Current.userDisplayNameEscaped || "";
+        try {
+            var textVersion = new DOMParser().parseFromString(escapedUserDisplayName, "text/html").documentElement.textContent;
+            if (textVersion) {
+                return textVersion;
+            }
+        } catch(ex) {}
+        return escapedUserDisplayName;
+    }
+    Kaggle.Current.userDisplayName = decodeUserDisplayName();
+</script>
+
+    
+
+<script nonce="f52UyVeM/JegskiY44sWdw==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+    Kaggle.PageMessages = [];
+</script>
+
+
+
+    <script nonce="f52UyVeM/JegskiY44sWdw==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="f52UyVeM/JegskiY44sWdw==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="f52UyVeM/JegskiY44sWdw==" src="/static/assets/runtime.js?v=51348bbc7b3eb24cded4" data-turbolinks-track="reload"></script>
+  <script nonce="f52UyVeM/JegskiY44sWdw==" src="/static/assets/vendor.js?v=187ce8da177b66330f59" data-turbolinks-track="reload"></script>
+  <script nonce="f52UyVeM/JegskiY44sWdw==" src="/static/assets/app.js?v=9c05fe481737620afec1" data-turbolinks-track="reload"></script>
+    <script nonce="f52UyVeM/JegskiY44sWdw==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+
+<div id="site-container"></div>
+<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="f52UyVeM/JegskiY44sWdw==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
+<div id="site-body" class="hide">
+    
+
+
+<div data-component-name="DatasetContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="f52UyVeM/JegskiY44sWdw==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"discussion":{"canDownvote":false,"dataUrl":"/forums/187857/topics.json","id":187857,"showSubscribeButton":false,"isSubscribed":false,"subscription":"unsubscribe","paramValues":{"category":"all","page":1,"search":null,"group":"all","sortBy":"hot"}},"currentTab":"home","newTopic":{"allowAttachments":false,"authorRanking":null,"authorTier":"novice","authorType":"topic","forumId":187857,"parentName":"American Sign Language Dataset ","parentUrl":"/ayuraj/asl-dataset/discussion","isPrivate":false},"categories":{"tags":[{"id":14102,"name":"image data","fullPath":"data type \u003e image data","listingUrl":"/datasets?group=public\u0026tagids=14102","description":null,"datasetCount":2572,"competitionCount":101,"notebookCount":2782,"tagUrl":"/tags/image-data","displayName":"Image Data","fontAwesomeIcon":""},{"id":13207,"name":"computer vision","fullPath":"technique \u003e computer vision","listingUrl":"/datasets?group=public\u0026tagids=13207","description":"Teaching a machine to interpret real-world images and videos. Applications include detecting objects, capturing motion, and restoring images.","datasetCount":1148,"competitionCount":10,"notebookCount":2263,"tagUrl":"/tags/image-processing","displayName":"Computer Vision","fontAwesomeIcon":""},{"id":13415,"name":"cnn","fullPath":"technique \u003e neural networks \u003e cnn","listingUrl":"/datasets?group=public\u0026tagids=13415","description":null,"datasetCount":560,"competitionCount":0,"notebookCount":3888,"tagUrl":"/tags/cnn","displayName":"CNN","fontAwesomeIcon":""},{"id":14202,"name":"multiclass classification","fullPath":"technique \u003e classification \u003e multiclass classification","listingUrl":"/datasets?group=public\u0026tagids=14202","description":null,"datasetCount":549,"competitionCount":47,"notebookCount":1677,"tagUrl":"/tags/multiclass-classification","displayName":"Multiclass Classification","fontAwesomeIcon":""}],"type":"dataset"},"upvoteSuggestion":{"voteCount":39,"medalVoteCount":9,"upVoters":[{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/373959-kg.jpg","displayName":"Tensor Girl","profileUrl":"/usharengaraju","tier":"Grandmaster","tierInt":4,"userId":373959,"userName":"usharengaraju"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4962648-kg.jpg","displayName":"Nitesh Yadav","profileUrl":"/niteshyadav3103","tier":"Master","tierInt":3,"userId":4962648,"userName":"niteshyadav3103"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2681031-kg.jpg","displayName":"BrendaPanda","profileUrl":"/brendan45774","tier":"Master","tierInt":3,"userId":2681031,"userName":"brendan45774"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4859738-kg.jpg","displayName":"Gohel vivek","profileUrl":"/gohelvivek","tier":"Expert","tierInt":2,"userId":4859738,"userName":"gohelvivek"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2072595-kg.jpeg","displayName":"Aritra Roy Gosthipaty","profileUrl":"/aritrag","tier":"Expert","tierInt":2,"userId":2072595,"userName":"aritrag"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5976231-kg.jpg","displayName":"Puja Roychowdhury","profileUrl":"/pujarc","tier":"Contributor","tierInt":1,"userId":5976231,"userName":"pujarc"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"SIRIPURAPU SRINIVAS 08","profileUrl":"/siripurapusrinivas08","tier":"Contributor","tierInt":1,"userId":5639453,"userName":"siripurapusrinivas08"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5181162-kg.jpg","displayName":"RanugaD","profileUrl":"/ranugadisansagamage","tier":"Contributor","tierInt":1,"userId":5181162,"userName":"ranugadisansagamage"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"bharathreddy3468","profileUrl":"/bharathreddy3468","tier":"Contributor","tierInt":1,"userId":4310034,"userName":"bharathreddy3468"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Tengku Nazmi","profileUrl":"/tengkunazmi","tier":"Novice","tierInt":0,"userId":4099052,"userName":"tengkunazmi"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4039287-kg.jpg","displayName":"Joshua Thompson","profileUrl":"/joshuathompson","tier":"Novice","tierInt":0,"userId":4039287,"userName":"joshuathompson"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"pallavi","profileUrl":"/extrastufffs","tier":"Novice","tierInt":0,"userId":3423560,"userName":"extrastufffs"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3263771-gr.jpg","displayName":"Jeroen Overschie","profileUrl":"/dunnkers","tier":"Novice","tierInt":0,"userId":3263771,"userName":"dunnkers"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Adhil shereef","profileUrl":"/adhil1999","tier":"Novice","tierInt":0,"userId":2837291,"userName":"adhil1999"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"singh97shreya","profileUrl":"/singh97shreya","tier":"Novice","tierInt":0,"userId":5035222,"userName":"singh97shreya"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Philip Alalibo","profileUrl":"/philipa97","tier":"Novice","tierInt":0,"userId":2617997,"userName":"philipa97"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Egor Romanov","profileUrl":"/egorromanov","tier":"Novice","tierInt":0,"userId":5443582,"userName":"egorromanov"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Paulene B","profileUrl":"/pbarnes","tier":"Novice","tierInt":0,"userId":5396095,"userName":"pbarnes"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5832194-kg.jpg","displayName":"Hada Garcia","profileUrl":"/hadagarcia","tier":"Novice","tierInt":0,"userId":5832194,"userName":"hadagarcia"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"amna ahmed","profileUrl":"/amnaahmed53","tier":"Novice","tierInt":0,"userId":4739876,"userName":"amnaahmed53"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4711527-kg.jpg","displayName":"Sajid576","profileUrl":"/sajid576","tier":"Novice","tierInt":0,"userId":4711527,"userName":"sajid576"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Jing Wen","profileUrl":"/jingwen1234","tier":"Novice","tierInt":0,"userId":4660912,"userName":"jingwen1234"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4356095-gr.jpg","displayName":"Pasqual Martí Gimeno","profileUrl":"/pasqualmartgimeno","tier":"Novice","tierInt":0,"userId":4356095,"userName":"pasqualmartgimeno"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"TITA SARI","profileUrl":"/titasari","tier":"Novice","tierInt":0,"userId":8338798,"userName":"titasari"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Edsie Jacobus","profileUrl":"/edsiejacobus","tier":"Novice","tierInt":0,"userId":8157001,"userName":"edsiejacobus"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Haidar Mirza","profileUrl":"/haidarmirza","tier":"Novice","tierInt":0,"userId":8142867,"userName":"haidarmirza"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Melike Çolak","profileUrl":"/melikecolak","tier":"Novice","tierInt":0,"userId":7821505,"userName":"melikecolak"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Tejas Shukla","profileUrl":"/tejasshukla","tier":"Novice","tierInt":0,"userId":7509299,"userName":"tejasshukla"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Sharanya Mukundan","profileUrl":"/sharanyamukundan","tier":"Novice","tierInt":0,"userId":7346853,"userName":"sharanyamukundan"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"RAJAT NAGARKAR","profileUrl":"/rajatnagarkar","tier":"Novice","tierInt":0,"userId":7317065,"userName":"rajatnagarkar"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Divya S R","profileUrl":"/divyasrraj","tier":"Novice","tierInt":0,"userId":7228111,"userName":"divyasrraj"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"azhim arief","profileUrl":"/azhimarief","tier":"Novice","tierInt":0,"userId":7112939,"userName":"azhimarief"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Isha Chowdhury","profileUrl":"/ishachowdhury","tier":"Novice","tierInt":0,"userId":6981687,"userName":"ishachowdhury"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Manvitha Reddivari ","profileUrl":"/manvithareddivari","tier":"Novice","tierInt":0,"userId":6934849,"userName":"manvithareddivari"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Uzma Rajput","profileUrl":"/uzmarajput","tier":"Novice","tierInt":0,"userId":6931784,"userName":"uzmarajput"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6909149-gr.jpg","displayName":"Luna Lucadou","profileUrl":"/lunalucadou","tier":"Novice","tierInt":0,"userId":6909149,"userName":"lunalucadou"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Purwoko Haryadi Santoso","profileUrl":"/purwokoharyadis","tier":"Novice","tierInt":0,"userId":6554159,"userName":"purwokoharyadis"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"SATYAM_KGP","profileUrl":"/satyamkgp","tier":"Novice","tierInt":0,"userId":6315259,"userName":"satyamkgp"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Ian Platt","profileUrl":"/ianplatt","tier":"Novice","tierInt":0,"userId":6178592,"userName":"ianplatt"}]},"readerGroupId":null,"writerGroupId":null,"collaborators":{"owner":{"userId":2212893,"groupId":null,"groupMemberCount":null,"profileUrl":"/ayuraj","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2212893-kg.jpg","name":"Ayush Thakur","slug":"ayuraj","userTier":3,"joinDate":null,"type":"owner","isUser":true,"isGroup":false},"collaborators":[]},"isCollaborator":false,"deletionNeedsReview":false,"hasDatasetDoiApproved":false,"canSeeConfigAsCode":true,"canCreateDatasetTasks":true,"blockTaskCreation":false,"canSeeDatasetHashLink":true,"medalUrl":"/static/images/medals/datasets/bronzel@2x.png","datasetHashLink":null,"datasetId":177084,"isRemoved":false,"isVersionRemoved":false,"isFeatured":false,"isSuperFeatured":false,"scheduledToBeFeatured":null,"scheduledToBeUnFeatured":null,"scheduledToBeSuperFeatured":null,"scheduledToBeUnSuperFeatured":null,"datasetVersionId":399170,"datasetVersionNumber":1,"lastVersionNumber":1,"datasetUrl":"/ayuraj/asl-dataset","datasetExternalUrl":"https://kaggle.com/ayuraj/asl-dataset","originalImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/177084/399170/7d90f4493015ceb9f5f56e7b3de0eb13/data-original.jpg?t=2019-06-22-12-23-20","coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/177084/399170/7d90f4493015ceb9f5f56e7b3de0eb13/dataset-cover.jpg?t=2019-06-22-12-23-20","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/177084/399170/7d90f4493015ceb9f5f56e7b3de0eb13/dataset-card.jpg?t=2019-06-22-12-23-20","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/177084/399170/7d90f4493015ceb9f5f56e7b3de0eb13/dataset-thumbnail.jpg?t=2019-06-22-12-23-20","license":{"id":1,"name":"CC0: Public Domain","description":"CC0: Public Domain \u003ca href=\u0022https://creativecommons.org/publicdomain/zero/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/publicdomain/zero/1.0/","displaySequence":null},"voteCount":39,"creatorUserId":2212893,"creatorDisplayName":"Ayush Thakur","ownerTwitter":"ayushthakur0","lastUpdated":"2019-04-28T08:25:27.797Z","downloadUrl":"/ayuraj/asl-dataset/download","newNotebookUrl":"code/scripts/new?datasetVersionId=399170","newScriptUrl":"code/scripts/new?datasetVersionId=399170","hasAlreadyVotedUp":false,"isOldDatasetVersion":false,"numberOfViews":8698,"numberOfDownloads":1333,"numberOfScripts":4,"numberOfTopics":1,"numberOfTasks":1,"canEdit":false,"canPerformOwnerTasks":false,"canEditSlug":false,"canEditPublishStatus":false,"canEditFeatureStatus":false,"canEditDescription":false,"hideVersionStatuses":true,"cardImageLeft":644,"cardImageTop":0,"cardImageWidth":3648,"cardImageHeight":3648,"coverImageLeft":0,"coverImageTop":1094,"coverImageWidth":5472,"coverImageHeight":1155,"datasetVersions":[{"id":399170,"slug":"asl-dataset","name":"American Sign Language Dataset ","creationDate":"2019-04-28T08:25:27.797Z","versionNumber":1,"versionNotes":"Initial release","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/177084/399170/7d90f4493015ceb9f5f56e7b3de0eb13/dataset-thumbnail.jpg?t=2019-06-22-12-23-20","datasetVersionUrl":"/ayuraj/asl-dataset/version/1","status":"ready","userMessage":null,"isRemoved":false,"creator":{"id":2212893,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2212893-kg.jpg","isOrganization":false,"name":"Ayush Thakur","profileUrl":"/ayuraj","slug":"ayuraj","maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},"userSpecifiedSources":null,"doi":null,"databundleVersionId":414242}],"datasetVersionTotalCount":1,"feed":[],"topicId":null,"isNewTopic":false,"canSeeDeletionButton":false,"checklistDismissed":false,"type":"fileset","diffType":"versioned","checklistCollapsed":false,"isInFlight":false,"maintainerOrganization":null,"createdByKernel":null,"usabilityRating":{"score":0.75,"columnDescriptionScore":null,"coverImageScore":1.0,"fileDescriptionScore":0.0,"fileFormatScore":1.0,"licenseScore":1.0,"overviewScore":1.0,"provenanceScore":0.0,"publicKernelScore":1.0,"subtitleScore":1.0,"tagScore":1.0,"updateFrequencyScore":0.0},"bookmarked":false,"licenseGroups":[{"id":1,"name":"Creative Commons","licenses":[{"id":1,"name":"CC0: Public Domain","description":"CC0: Public Domain \u003ca href=\u0022https://creativecommons.org/publicdomain/zero/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/publicdomain/zero/1.0/","displaySequence":1},{"id":3,"name":"CC BY-NC-SA 4.0","description":"CC BY-NC-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/4.0/","displaySequence":2},{"id":8,"name":"CC BY-SA 4.0","description":"CC BY-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/4.0/","displaySequence":3},{"id":10,"name":"CC BY-SA 3.0","description":"CC BY-SA 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/3.0/","displaySequence":4},{"id":13,"name":"Attribution 4.0 International (CC BY 4.0)","description":"CC-BY 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/4.0/","displaySequence":5},{"id":14,"name":"Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)","description":"CC-BY-NC 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc/4.0/","displaySequence":6},{"id":16,"name":"Attribution 3.0 Unported (CC BY 3.0)","description":"CC BY 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/","displaySequence":7},{"id":17,"name":"Attribution 3.0 IGO (CC BY 3.0 IGO)","description":"CC BY 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/igo/","displaySequence":8},{"id":19,"name":"Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO)","description":"CC BY-NC-SA 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/3.0/igo/","displaySequence":9},{"id":22,"name":"Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)","description":"CC BY-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nd/4.0/","displaySequence":10},{"id":23,"name":"Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)","description":"CC BY-NC-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-nd/4.0/","displaySequence":11}],"displaySequence":1},{"id":2,"name":"GPL","licenses":[{"id":9,"name":"GPL 2","description":"GPL 2 \u003ca href=\u0022http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html","displaySequence":1},{"id":25,"name":"GNU Lesser General Public License 3.0","description":"LGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/lgpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/lgpl-3.0.html","displaySequence":2},{"id":26,"name":"GNU Affero General Public License 3.0","description":"AGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/agpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/agpl-3.0.html","displaySequence":3},{"id":27,"name":"GNU Free Documentation License 1.3","description":"FDL 1.3 \u003ca href=\u0022http://www.gnu.org/licenses/fdl-1.3.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/fdl-1.3.html","displaySequence":4}],"displaySequence":2},{"id":3,"name":"Open Data Commons","licenses":[{"id":5,"name":"Database: Open Database, Contents: Database Contents","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: Database Contents \u003ca href=\u0022http://opendatacommons.org/licenses/dbcl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://opendatacommons.org/licenses/dbcl/1.0/","displaySequence":1},{"id":6,"name":"Database: Open Database, Contents: © Original Authors","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: © Original Authors","url":"http://opendatacommons.org/licenses/odbl/1.0/","displaySequence":2},{"id":15,"name":"ODC Public Domain Dedication and Licence (PDDL)","description":"PDDL  \u003ca href=\u0022https://opendatacommons.org/licenses/pddl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/pddl/1.0/","displaySequence":3},{"id":24,"name":"ODC Attribution License (ODC-By)","description":"ODC-BY 1.0 \u003ca href=\u0022https://opendatacommons.org/licenses/by/1-0/index.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/by/1-0/index.html","displaySequence":4}],"displaySequence":3},{"id":6,"name":"Community Data License","licenses":[{"id":20,"name":"Community Data License Agreement - Permissive - Version 1.0","description":"CDLA Permissive 1.0 \u003ca href=\u0022https://cdla.io/permissive-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/permissive-1-0/","displaySequence":1},{"id":21,"name":"Community Data License Agreement - Sharing - Version 1.0","description":"CDLA Sharing 1.0 \u003ca href=\u0022https://cdla.io/sharing-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/sharing-1-0/","displaySequence":2}],"displaySequence":4},{"id":4,"name":"Special","licenses":[{"id":7,"name":"World Bank Dataset Terms of Use","description":"World Bank Dataset Terms of Use \u003ca href=\u0022https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets","displaySequence":1},{"id":2,"name":"Reddit API Terms","description":"Reddit API Terms \u003ca href=\u0022https://www.reddit.com/wiki/api\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.reddit.com/wiki/api","displaySequence":2},{"id":18,"name":"U.S. Government Works","description":"U.S. Government Works \u003ca href=\u0022https://www.usa.gov/government-works/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.usa.gov/government-works/","displaySequence":3},{"id":28,"name":"EU ODP Legal Notice","description":"EU ODP Legal Notice \u003ca href=\u0022https://ec.europa.eu/info/legal-notice_en\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://ec.europa.eu/info/legal-notice_en","displaySequence":4}],"displaySequence":5},{"id":5,"name":"Other","licenses":[{"id":11,"name":"Data files © Original Authors","description":"Data files © Original Authors","url":null,"displaySequence":1},{"id":12,"name":"Other (specified in description)","description":"Other (specified in description)","url":null,"displaySequence":2},{"id":4,"name":"Unknown","description":"Unknown","url":null,"displaySequence":3}],"displaySequence":6}],"owners":[{"id":0,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/","isOrganization":false,"name":null,"profileUrl":"/","slug":null,"maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},{"id":2212893,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2212893-kg.jpg","isOrganization":false,"name":"Ayush Thakur","profileUrl":"/ayuraj","slug":"ayuraj","maxFileSizeBytes":null,"userTier":3,"organizationMemberCount":null}],"referrer":null,"convertToStandardCsvFormat":false,"overview":"American Sign Language Dataset for Image Classifcation","description":"This dataset can be used to apply the ideas of multi class classification using the technology of your choice. This is curated for convolution neural network. The multi class classification result will be close to 98% of accuracy if the algorithm is good enough. \n","actions":[],"flags":[],"title":"American Sign Language Dataset ","slug":"asl-dataset","licenseId":1,"data":{"firestorePath":"LUgLfTeqSgBBnWimFsTS/versions/vJrd8Nbm9KcmHpHP4op3","databundleVersionId":414242,"databundle":{"type":"databundle","databundleInfo":{"currentDatabundleVersionId":414242,"databundleType":"dataset","diffType":"versioned","creationDate":"2019-04-28T08:25:26.5173244Z","creatorUserId":2212893,"removalDate":null,"currentGoodVersionKey":"vJrd8Nbm9KcmHpHP4op3","lastestVersionKey":"vJrd8Nbm9KcmHpHP4op3","versions":{"totalChildren":1,"count":0,"children":[]}},"datasetInfo":{"datasetId":177084,"datasetSlug":"/ayuraj/asl-dataset","isPrivate":false},"competitionInfo":null,"remoteDatasourceInfo":null,"bigqueryInfo":null,"githubInfo":null,"key":"LUgLfTeqSgBBnWimFsTS","path":"LUgLfTeqSgBBnWimFsTS","legacyEntityId":188841,"relativeUrl":"","name":"American Sign Language Dataset ","description":null},"databundleVersion":{"type":"databundleVersion","databundleVersionInfo":{"versionNumber":1,"versionNotes":"Initial release","creatorUserId":2212893,"creationDate":"2019-04-28T08:25:26.5173267Z","removalDate":null,"databundleVersionType":"fileset","objectTypeCount":{}},"datasetVersionInfo":{"datasetVersionId":399170},"statusInfo":{"status":"ready","statusMessage":"Ready","percentageCompleted":1.0},"exceptionInfo":{"criticalException":null,"warningExceptions":[]},"filesetInfo":{"totalSize":32464162,"directories":{"totalChildren":1,"count":0,"children":[]},"files":{"totalChildren":0,"count":0,"children":[]}},"originalCompressionInfo":{"filename":"asl_dataset.zip","fileExtension":".zip","fileSize":29866175,"contentEncoding":"application/zip","contentMD5":"1c3H/tEgdWJ7WgpL/Olj4g==","archiveGcsUrl":"gs://kaggle-data-sets/177084/399170/upload/asl_dataset.zip","creationLastUpdate":null,"creationPercentComplete":null},"bundleCompressionInfo":{"filename":"archive.zip","fileExtension":".zip","fileSize":59642568,"contentEncoding":"application/zip","contentMD5":"emxBZKxQiylmu4sjbkHwTw==","archiveGcsUrl":"gs://kaggle-data-sets/177084/399170/bundle/archive.zip","creationLastUpdate":"2019-10-22T16:06:50.9636994Z","creationPercentComplete":1.0},"bigquerySnapshotInfo":null,"storageInfo":{"uploadDataLocation":{"bucket":"kaggle-data-sets","path":"177084/399170/upload"},"rawDataLocation":{"bucket":"kagglesdsdata","path":"datasets/177084/399170"},"individualCompressedLocation":{"bucket":"kaggle-data-sets","path":"177084/399170/compressed"},"bundleArchiveLocation":{"bucket":"kaggle-data-sets","path":"177084/399170/bundle/archive.zip"},"fileSystemLocation":{"bucket":"kaggle-data-sources","path":"datasets/177084/399170/fs/embedded_fs"}},"fileSummaryInfo":{"fileTypes":[{"extension":".jpeg","fileCount":2515,"totalSize":32464162}],"sampleFileNames":["asl_dataset/0/hand1_0_dif_seg_4_cropped.jpeg","asl_dataset/0/hand1_0_dif_seg_5_cropped.jpeg","asl_dataset/0/hand1_0_dif_seg_3_cropped.jpeg","asl_dataset/0/hand1_0_dif_seg_1_cropped.jpeg","asl_dataset/0/hand1_0_bot_seg_5_cropped.jpeg","asl_dataset/0/hand1_0_bot_seg_4_cropped.jpeg","asl_dataset/0/hand1_0_right_seg_1_cropped.jpeg","asl_dataset/0/hand1_0_bot_seg_3_cropped.jpeg","asl_dataset/0/hand1_0_bot_seg_2_cropped.jpeg","asl_dataset/0/hand1_0_left_seg_2_cropped.jpeg","asl_dataset/0/hand1_0_bot_seg_1_cropped.jpeg"],"totalFileCount":2515},"columnSummaryInfo":{"columnTypes":[],"sampleColumnNames":[],"totalColumnCount":0},"externalCopyInfo":null,"originalRemoteUrlInfo":null,"key":"vJrd8Nbm9KcmHpHP4op3","path":"LUgLfTeqSgBBnWimFsTS/versions/vJrd8Nbm9KcmHpHP4op3","legacyEntityId":414242,"relativeUrl":"","name":"Version 1","description":"Initial release"}},"isPrivate":false,"owner":{"id":2212893,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2212893-kg.jpg","isOrganization":false,"name":"Ayush Thakur","profileUrl":"/ayuraj","slug":"ayuraj","maxFileSizeBytes":null,"userTier":3,"organizationMemberCount":null}});performance && performance.mark && performance.mark("DatasetContainer.componentCouldBootstrap");</script><script nonce="f52UyVeM/JegskiY44sWdw==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: [],
+    });
+</script>
+<script type="text/javascript" nonce="f52UyVeM/JegskiY44sWdw==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
